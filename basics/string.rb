@@ -19,3 +19,35 @@ name = "Jhon"
 age = 49
 puts "Hello, #{name}, I think you are #{age} years old"
 puts "The total is #{3+5}"
+
+# How to extract a substring
+src = "abc134"
+p src
+p src[0,3] # "abc"
+p src[3,3] # "134"
+
+# how to find out if a string contains another string?
+string = "Today is Saturday"
+p string.include?("Saturday")
+p string.include?("baba")
+p string.include?("od")
+p string.include?("ay")
+p string.include?("ur")
+# also can use index method
+
+p string.index("day")
+
+p string.index("is")
+
+# string uppercase , lowercase converting method
+p string.upcase
+p string.downcase
+# trim a string and remove white space
+extra_space = "  test   "
+p extra_space
+p  extra_space.strip
+
+# remove white space from left or right
+
+p extra_space.lstrip
+p extra_space.rstrip
