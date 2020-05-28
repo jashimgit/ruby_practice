@@ -65,3 +65,14 @@ p string.end_with? "ming" #true
 string  = "Bacon is expensive"
 p string.delete_prefix('Bacon ')
 p string.delete_suffix('expensive')
+
+# convert string to array
+
+string = "a b c d e f g"
+p string.split
+string = "book, table, chair, stair"
+p string.split(",")
+
+# convert an array to string
+arr = ['a', 'b', 'c', 'd']
+p arr.join
