@@ -51,3 +51,17 @@ p  extra_space.strip
 
 p extra_space.lstrip
 p extra_space.rstrip
+
+# string prefix & suffix
+=begin
+method to check if a string starts with a specific prefix
+=end
+string = "ruby programming"
+p string.start_with? "ruby"  #true
+p string.end_with? "ruby" #false
+p string.end_with? "ming" #true
+
+# delete_prefix  & delete_suffix
+string  = "Bacon is expensive"
+p string.delete_prefix('Bacon ')
+p string.delete_suffix('expensive')
