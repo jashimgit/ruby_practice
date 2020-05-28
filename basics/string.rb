@@ -76,3 +76,7 @@ p string.split(",")
 # convert an array to string
 arr = ['a', 'b', 'c', 'd']
 p arr.join
+
+
+# reverse a string
+p "stressed".reverse
